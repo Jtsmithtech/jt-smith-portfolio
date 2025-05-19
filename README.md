@@ -55,33 +55,24 @@ This website serves as a digital resume and professional portfolio for JT Smith.
 
 ---
 
+## 📦 Static Export & GitHub Pages Deployment
+
+This project is configured for **static export** using Next.js (`output: 'export'` in `next.config.mjs`). This means all pages are pre-rendered as static HTML, making it ideal for hosting on GitHub Pages or any static hosting provider.
+
+### Static Export Steps
+1. **Build and export the site:**
+   ```sh
+   pnpm build && pnpm export # or npm run build && npm run export or yarn build && yarn export
+   ```
+   This will generate a static `out/` directory with your site.
+2. **Deploy the `out/` directory to GitHub Pages:**
+   - You can use [GitHub Actions](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports#github-pages) or manually push the contents of `out/` to your `gh-pages` branch.
+
+**Note:**
+- No server-side rendering or API routes are used; all content is statically generated.
+- If you add dynamic server code or API routes, static export will not work.
+
+---
+
 ## 📁 Project Structure
 ```
-jt-smith-portfolio/
-├── app/                # Next.js app directory (pages, layout, etc.)
-├── components/         # Reusable React components (UI, sections)
-├── public/             # Static assets (images, icons)
-├── styles/             # Global styles (Tailwind CSS)
-├── hooks/              # Custom React hooks
-├── lib/                # Utility libraries
-├── ...
-```
-
----
-
-## 📝 Customization
-- Update your personal information, experience, education, and projects in the respective components in `components/`.
-- Replace placeholder images in `public/` with your own.
-- Update the resume download link in `components/hero.tsx`.
-
----
-
-## 📬 Contact
-For professional inquiries, use the contact form on the website or connect via:
-- [GitHub](https://github.com/Jtsmithtech)
-- [LinkedIn](https://www.linkedin.com/in/joseph-smith-mba-337695184)
-
----
-
-## 🛡️ License
-This project is for personal portfolio use. Feel free to fork and adapt for your own resume/portfolio! 

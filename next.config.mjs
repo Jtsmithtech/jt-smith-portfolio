@@ -20,6 +20,7 @@ const nextConfig = {
     return config;
   },
   serverExternalPackages: ['next-themes'],
+  output: 'export',
 }
 
 export default nextConfig
