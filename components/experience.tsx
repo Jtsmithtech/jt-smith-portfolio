@@ -9,9 +9,9 @@ export default function Experience() {
       company: "Port Authority of NY & NJ",
       period: "January 2024 – Present",
       responsibilities: [
-        "Upgraded and maintained existing financial models and reports for the Port Authority of NY&NJ reviewing Gross Revenue and Expense overheads of over $1 billion dollars.",
-        "Met with senior stakeholders and developed a financial model using Power Query and Power Pivot, combining data from labor data from PeopleSoft and Oracle EPM to provide a clear oversight of expenses and speed up financial analysis across departments. This model was used to identify areas for cost reduction and improve financial performance.",
-        "Led training sessions for 100+ employees on how to effectivelly use Oracle EPM and Excel to analyze financial data.",
+        "Managed and improved financial models and reports for the Port Authority of NY&NJ, analyzing over $1 billion in gross revenue and expenses.",
+        "Developed a Power Query and Power Pivot-based financial model in collaboration with senior stakeholders, integrating PeopleSoft and Oracle EPM data to optimize expense analysis and support cost reduction strategies.",
+        "Delivered Oracle EPM and Excel training to over 100 employees, enhancing their financial data analysis capabilities.",
       ],
     },
     {

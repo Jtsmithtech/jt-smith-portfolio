@@ -4,7 +4,6 @@ export default function Skills() {
   const skills = [
     "Business Analyst",
     "Financial Analyst",
-    "Essbase",
     "Hyperion",
     "Oracle EPBCS",
     "SmartView",
@@ -19,7 +18,11 @@ export default function Skills() {
     "PowerApps",
     "Power Automate",
     "PowerBI",
-    "Tableau",
+    "PowerQuery",
+    "SQL",
+    "Docker",
+    "Cursor",
+    "Prompt Engineering",
   ]
 
   return (

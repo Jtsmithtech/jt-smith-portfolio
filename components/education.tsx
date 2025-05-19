@@ -23,7 +23,7 @@ export default function Education() {
                     </div>
                   </div>
                   <p className="text-lg font-medium text-primary mt-1">
-                    Masters of Business Administration with Finance concentration
+                    MBA with Corporate Finance concentration
                   </p>
                 </div>
               </div>

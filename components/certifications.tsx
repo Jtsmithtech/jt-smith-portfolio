@@ -14,7 +14,7 @@ export default function Certifications() {
               <div className="flex items-start gap-4">
                 <div className="relative w-16 h-16 flex-shrink-0">
                   <Image
-                    src="/placeholder.svg?height=85&width=85"
+                    src="https://www.scrumalliance.org/images/badgelibraryprovider/default-album/sa-csm-300.png?sfvrsn=92fdfd00_1"
                     alt="Certified Scrum Master"
                     fill
                     className="object-contain"
