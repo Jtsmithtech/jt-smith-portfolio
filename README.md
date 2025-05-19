@@ -73,6 +73,31 @@ This project is configured for **static export** using Next.js (`output: 'export
 - If you add dynamic server code or API routes, static export will not work.
 
 ---
-
 ## 📁 Project Structure
+
+
 ```
+
+
+jt-smith-portfolio/
+
+
+├── app/                # Next.js app directory (pages, layout, etc.)
+
+
+├── components/         # Reusable React components (UI, sections)
+
+
+├── public/             # Static assets (images, icons)
+
+
+├── styles/             # Global styles (Tailwind CSS)
+
+
+├── hooks/              # Custom React hooks
+
+
+├── lib/                # Utility libraries
+
+
+├── ...
